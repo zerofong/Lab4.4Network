@@ -10,12 +10,13 @@ import android.widget.TextView;
 
 import java.util.List;
 
+import my.edu.tarc.lab44network.R;
+
 /**
  * Created by TARC on 8/6/2015.
  */
 public class CourseAdapter extends ArrayAdapter<Course> {
-    //List<Course> list;
-   // Activity context;
+    
 
     public CourseAdapter(Activity context, int resource, List<Course> list) {
         super(context, resource, list);
